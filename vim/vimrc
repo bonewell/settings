@@ -5,6 +5,9 @@ syntax on
 " Line number
 set number
 
+" End of line marker
+set colorcolumn=80,120
+
 " Unprintable symbols
 set list
 set listchars=eol:$,space:·,tab:>-,trail:~
