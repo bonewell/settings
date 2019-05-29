@@ -1,0 +1,58 @@
+/configver 2
+/panels uint32 1
+/panels/panel-0/autohide-behavior uint32 0
+/panels/panel-0/background-alpha uint32 100
+/panels/panel-0/background-style uint32 0
+/panels/panel-0/enter-opacity uint32 100
+/panels/panel-0/leave-opacity uint32 100
+/panels/panel-0/length uint32 100
+/panels/panel-0/length-adjust true
+/panels/panel-0/mode uint32 0
+/panels/panel-0/plugin-ids [<1>, <14>, <2>, <3>, <15>, <4>, <5>, <6>, <7>, <9>, <10>, <8>, <11>]
+/panels/panel-0/position 'p=6;x=0;y=0'
+/panels/panel-0/position-locked true
+/panels/panel-0/size uint32 26
+/panels/panel-0/span-monitors false
+/plugins/plugin-1 'whiskermenu'
+/plugins/plugin-10 'separator'
+/plugins/plugin-10/expand false
+/plugins/plugin-10/style uint32 0
+/plugins/plugin-11 'clock'
+/plugins/plugin-11/digital-format '%R'
+/plugins/plugin-11/timezone ''
+/plugins/plugin-14 'places'
+/plugins/plugin-14/mount-open-volumes true
+/plugins/plugin-14/show-bookmarks true
+/plugins/plugin-14/show-button-type 0
+/plugins/plugin-14/show-recent true
+/plugins/plugin-15 'pager'
+/plugins/plugin-2 'tasklist'
+/plugins/plugin-2/flat-buttons true
+/plugins/plugin-3 'separator'
+/plugins/plugin-3/expand true
+/plugins/plugin-3/style uint32 0
+/plugins/plugin-4 'systray'
+/plugins/plugin-4/names-visible [<'network'>, <'networkmanager applet'>, <'system-config-printer'>, <'task manager'>, <'blueman-applet'>, <'thunar'>, <'riot-web'>]
+/plugins/plugin-4/show-frame false
+/plugins/plugin-4/size-max uint32 22
+/plugins/plugin-5 'notification-plugin'
+/plugins/plugin-6 'indicator'
+/plugins/plugin-6/blacklist [<'libappmenu.so'>]
+/plugins/plugin-6/known-indicators [<'com.canonical.indicator.messages'>]
+/plugins/plugin-7 'statusnotifier'
+/plugins/plugin-7/icon-size uint32 22
+/plugins/plugin-7/known-items [<'Riot1'>, <'software-update-available'>, <'blueman'>, <'nm-applet'>]
+/plugins/plugin-7/menu-is-primary true
+/plugins/plugin-7/mode-whitelist false
+/plugins/plugin-7/single-row false
+/plugins/plugin-7/square-icons false
+/plugins/plugin-7/symbolic-icons true
+/plugins/plugin-8 'xkb'
+/plugins/plugin-8/display-name uint32 1
+/plugins/plugin-8/display-type uint32 1
+/plugins/plugin-9 'pulseaudio'
+/plugins/plugin-9/enable-keyboard-shortcuts true
+/plugins/plugin-9/enable-mpris true
+/plugins/plugin-9/mixer-command 'pavucontrol'
+/plugins/plugin-9/mpris-players 'parole'
+/plugins/plugin-9/show-notifications true
