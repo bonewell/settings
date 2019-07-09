@@ -5,6 +5,8 @@ syntax on
 " Line number
 set number
 
+map <C-e> :e ++enc=cp1251<CR>
+
 " End of line marker
 set colorcolumn=80,120
 
