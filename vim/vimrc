@@ -5,6 +5,7 @@ syntax on
 " Line number
 set number
 
+" Ctrl-E hotkey to enable CP1251
 map <C-e> :e ++enc=cp1251<CR>
 
 " End of line marker
@@ -13,6 +14,10 @@ set colorcolumn=80,120
 " Unprintable symbols
 set list
 set listchars=eol:$,space:·,tab:>-,trail:~
+" Ctrl-H hotkey to hide unprintable symbols
+map <C-h> :set nolist nonumber<CR>
+" Ctrl-S hotkey to show unprintable symbols
+map <C-p> :set list number<CR>
 
 " Tab
 set tabstop=2
