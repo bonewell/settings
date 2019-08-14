@@ -22,9 +22,14 @@ map <C-p> :set list number<CR>
 " Tab
 set tabstop=2
 set softtabstop=0
-set expandtab ts=2 sw=2 ai
+set ts=2
+set sw=2
+set expandtab
 set shiftwidth=4
-set smarttab
+"set smarttab
+
+" Ctrl-T hotkey to enable tabs
+map <C-t> :set noexpandtab<CR>
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
